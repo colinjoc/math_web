@@ -1,0 +1,101 @@
+function show_ans_1() {
+	document.getElementById('answer_1').style.display = "block";
+}
+
+
+function check_ans_1(){
+	var input = document.getElementById('input_ans_1');
+	if (input.value==7){
+		document.getElementById('correct_1').style.display = "block";
+        	document.getElementById('incorrect_1').style.display = "none";
+		document.getElementById('correct_1').style.color = "green";		
+		}	
+	else{
+		document.getElementById('incorrect_1').style.display = "block";	
+        	document.getElementById('correct_1').style.display = "none";
+		document.getElementById('incorrect_1').style.color = "red";
+		
+		}
+}
+/*--------------------------------------------------*/
+
+function show_ans_2() {
+	document.getElementById('answer_2').style.display = "block";
+}
+/*--------------------------------------------------*/
+
+function show_ans_3() {
+	document.getElementById('answer_3').style.display = "block";
+}
+
+
+function check_ans_3(){
+	var input = document.getElementById('input_ans_3');
+	if (input.value==5050){
+		document.getElementById('correct_3').style.display = "block";
+        document.getElementById('incorrect_3').style.display = "none";	
+		}	
+	else{
+		document.getElementById('incorrect_3').style.display = "block";	
+        document.getElementById('correct_3').style.display = "none";	
+		}
+}
+/*--------------------------------------------------*/
+
+function show_ans_4() {
+	document.getElementById('answer_4').style.display = "block";
+}
+
+function check_ans_4(){
+	var input = document.getElementById('input_ans_4');
+	if (input.value==4){
+		document.getElementById('correct_4').style.display = "block";
+        document.getElementById('incorrect_4').style.display = "none";	
+		}	
+	else{
+		document.getElementById('incorrect_4').style.display = "block";	
+        document.getElementById('correct_4').style.display = "none";	
+		}
+}
+/*--------------------------------------------------*/
+function show_ans_5() {
+	document.getElementById('answer_5').style.display = "block";
+}
+
+function check_ans_5(){
+	var input = document.getElementById('input_ans_5');
+	if (input.value==2){
+		document.getElementById('correct_5').style.display = "block";
+        document.getElementById('incorrect_5').style.display = "none";	
+		}	
+	else{
+		document.getElementById('incorrect_5').style.display = "block";	
+        document.getElementById('correct_5').style.display = "none";	
+		}
+}
+/*--------------------------------------------------*/
+/*--------------------------------------------------*/
+function show_ans_6() {
+	document.getElementById('answer_6').style.display = "block";
+}
+/*--------------------------------------------------*/
+function show_ans_7() {
+	document.getElementById('answer_7').style.display = "block";
+}
+/*--------------------------------------------------*/
+function show_ans_8() {
+	document.getElementById('answer_8').style.display = "block";
+}
+
+function check_ans_8(){
+	var input = document.getElementById('input_ans_8');
+	if (input.value==5){
+		document.getElementById('correct_8').style.display = "block";
+        document.getElementById('incorrect_8').style.display = "none";	
+		}	
+	else{
+		document.getElementById('incorrect_8').style.display = "block";	
+        document.getElementById('correct_8').style.display = "none";	
+		}
+}
+

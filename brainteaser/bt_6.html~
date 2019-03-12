@@ -1,0 +1,30 @@
+<div id="question_6>
+	<div id="question">
+		<p>a,b,c are digits. what is the value of a if aa+aa = bac</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>a = 9, b = 1 and c is 8.</p>
+		</div>
+	</div>
+
+</div>
+
+

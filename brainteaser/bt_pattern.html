@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style_sheet.css">
+
+<script src="../java_functions_1.js">	
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<img src="../images/logo.png" alt="logo"/>	
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="../brain_teaser_menu.html">Brain Teaser Menur</a></li>
+			<li id="nav_bar_list"><a href="../contact.html">Contact</a></li>
+	</div>
+<!-- //////////////////////////////////////////////////////// -->
+	<div id="content">
+	
+	<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 1">
+			<div>
+				<h2>Pattern 1</h2>
+			</div>
+			<div id="question 1">
+				<p>6,6,12,18,40,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_1()" />
+
+				<div id="answer_1"  style="display:none;" class="answer_list" > 
+					<p>Answer is 58. This is a fibonnacci sequance that starts at 6 instead of 1. Each term is the sum of the previous two numbers in the sequance.</p>
+				</div>
+			</div>
+		</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 2">
+			<div>
+				<h2>Pattern 2</h2>
+			</div>
+			<div id="question 2">
+				<p>3,5,9,15,23,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_2()" />
+
+				<div id="answer_2"  style="display:none;" class="answer_list" > 
+					<p>Answer is 33. Add 2 to the first term, add 4 to the second term, add 6 to the third term and so on until you add 10 to the fifth term.</p>
+				</div>
+			</div>
+		</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 3">
+			<div>
+				<h2>Pattern 3</h2>
+			</div>
+			<div id="question 2">
+				<p>3,5,9,15,23,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_2()" />
+
+				<div id="answer_2"  style="display:none;" class="answer_list" > 
+					<p>Answer is 33. Add 2 to the first term, add 4 to the second term, add 6 to the third term and so on until you add 10 to the fifth term.</p>
+				</div>
+			</div>
+		</div>
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 4">
+			<div>
+				<h2>Pattern 4</h2>
+			</div>
+			<div id="question 4">
+				<p>11, 15, 20, 24, 29,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_4()" />
+
+				<div id="answer_4"  style="display:none;" class="answer_list" > 
+					<p>The answer is 33. Add 4 then 5 then 4 then 5 and so on. </p>
+				</div>
+			</div>
+		</div>
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 5">
+			<div>
+				<h2>Pattern 5</h2>
+			</div>
+			<div id="question 2">
+				<p>6,12,9,18,15,30,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_5()" />
+
+				<div id="answer_5"  style="display:none;" class="answer_list" > 
+					<p>The answer is 27. You double 6 to get 12 and take off 3 to get 9. This process is repeated until we take 3 off 30 to get 27. </p>
+				</div>
+			</div>
+		</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 6">
+			<div>
+				<h2>Pattern 6</h2>
+			</div>
+			<div id="question 6">
+				<p>2,20,4,10,6,5,8,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_6()" />
+
+				<div id="answer_6"  style="display:none;" class="answer_list" > 
+					<p>2.5. There are two interwoven sequences. 2,4,6,8 and 20,10,5,2.5.</p>
+				</div>
+			</div>
+		</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 7">
+			<div>
+				<h2>Pattern 7</h2>
+			</div>
+			<div id="question 7">
+				<p>100,97,91,79,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_7()" />
+
+				<div id="answer_7"  style="display:none;" class="answer_list" > 
+					<p>The answer is 55. The difference between subsequent terms goes like 3, 3x2=6, 6x2=12, 12x2=24.</p>
+				</div>
+			</div>
+		</div>
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 7">
+			<div>
+				<h2>Pattern 7</h2>
+			</div>
+			<div id="question 7">
+				<p>12345, 3579, 81216, 9337, 12610, ?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_7()" />
+
+				<div id="answer_7"  style="display:none;" class="answer_list" > 
+					<p>The answer is 3871. Add each digit to the next digit to get the digit (or digits) in the next number. For example, to get 3579: 1+2=3 2+3=5 3+4=7 4+5=9. To get the answer (3871) we have: 1+2=3 2+6=8 6+1=7 1+0=1.</p>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+<div id = "footer">
+	<p>Throw in a proper footer</p>
+</div>
+</body>
+</html>
+

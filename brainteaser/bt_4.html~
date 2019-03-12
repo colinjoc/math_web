@@ -1,0 +1,29 @@
+<div id="question_4">
+	<div id="question">
+		<p>A car is on a journey that is 120km long. It travels the first 60km at an average speed of 30km per hour. How fast would the car have to travel in order have an average speed of 60km per hour over the whole journey?</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>It is a trick question, it is not possible. Since the car has already travelled 60 km at 30 km per hour, there is only 60km left which is not enough distance to get the average speed up to 60km per hour.</p>
+		</div>
+	</div>
+</div>
+
+

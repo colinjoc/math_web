@@ -1,0 +1,58 @@
+function show_ans_1() {
+	document.getElementById('answer_1').style.display = "block";
+}
+
+/*--------------------------------------------------------*/
+function show_ans_2() {
+	document.getElementById('answer_2').style.display = "block";
+}
+
+function check_ans_2(){
+	var input = document.getElementById('input_ans_2');
+	if (input.value==5){
+		document.getElementById('correct_2').style.display = "block";
+        	document.getElementById('incorrect_2').style.display = "none";	
+		document.getElementById('correct_2').style.color = "green";			
+		}	
+	else{
+		document.getElementById('incorrect_2').style.display = "block";	
+        	document.getElementById('correct_2').style.display = "none";	
+		document.getElementById('incorrect_2').style.color = "red";			
+		}
+}
+/*--------------------------------------------------------*/function show_ans_3() {
+	document.getElementById('answer_3').style.display = "block";
+}
+
+function check_ans_3(){
+	var input = document.getElementById('input_ans_3');
+	if (input.value==9){
+		document.getElementById('correct_3').style.display = "block";
+        	document.getElementById('incorrect_3').style.display = "none";	
+		document.getElementById('correct_3').style.color = "green";			
+		}	
+	else{
+		document.getElementById('incorrect_3').style.display = "block";	
+	        document.getElementById('correct_3').style.display = "none";	
+		document.getElementById('incorrect_3').style.color = "red";	
+		}
+}
+
+/*--------------------------------------------------------*/function show_ans_4() {
+	document.getElementById('answer_4').style.display = "block";
+}
+
+function check_ans_4(){
+	var input = document.getElementById('input_ans_4');
+	if (input.value==2){
+		document.getElementById('correct_4').style.display = "block";
+	        document.getElementById('incorrect_4').style.display = "none";	
+		document.getElementById('correct_4').style.color = "green";	
+		}	
+	else{
+		document.getElementById('incorrect_4').style.display = "block";	
+	        document.getElementById('correct_4').style.display = "none";	
+		document.getElementById('incorrect_4').style.color = "red";	
+		}
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style_sheet.css">
+
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<img src="images/logo.png" alt="logo"/>			
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="index.html">Home</a></li>
+			<li id="nav_bar_list"><a href="brain_teaser_menu.html">Brain Teaser</a></li>
+			<li id="nav_bar_list"><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+
+	<div id="section_choice_1">
+		<ul>
+			<li id="section_list_pic">pic</li>
+			<li id="section_list_content">content</li>
+		</ul>
+	</div>
+
+	<div id="section_choice_2">
+		<ul>
+			<li id="section_list_pic">pic</li>
+			<li id="section_list_content">content</li>
+		</ul>
+	</div>
+
+
+</div>
+
+
+
+</body>
+</html>
+

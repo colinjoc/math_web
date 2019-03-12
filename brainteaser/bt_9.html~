@@ -1,0 +1,17 @@
+<div id="question_9">
+	<div id="question">
+		<p>You play a game with a friend where you flip a coin. If you get heads you win, if not then it is your friends turn. Is it better to go first or second in this game?</p>
+	</div>
+
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>It is better toi go first. The first player has a 50/50 chance of winning where as the second player needs the first person to get tails (0.5 chance) and then must get heads (0.5 chance) which has a probability of 0.25.</p>
+		</div>
+	</div>
+
+</div>
+
+

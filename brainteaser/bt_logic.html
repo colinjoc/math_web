@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style_sheet.css">
+
+<script src="../java_functions_logic.js">	
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<img src="../images/logo.png" alt="logo"/>	
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="../brain_teaser_menu.html">Brain Teaser Menu</a></li>
+			<li id="nav_bar_list"><a href="../contact.html">Contact</a></li>
+	</div>
+<!-- //////////////////////////////////////////////////////// -->
+	<div id="content">
+
+		﻿<div id="question_1">
+			<div>
+				<h2>Question 1</h2>
+			</div>
+
+			<div id="question">
+				<p>You have 25 horse and you want to know the 3 fastest. You can race 5 horses at a time. You can only record the order the horses finish in each race, you cannot time them. What is the least number of races you have to hold to find the fastest 3?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_1" id="input_ans_1" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_1()"/>
+
+				<div id="correct_1"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_1"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_1()" />
+
+				<div id="answer_1"  style="display:none;" class="answer_list" > 
+					<p>The answer is 7. First race all of the horses in 5 races. Record the horses that come in first, second and third in each race. Then race all the horses together in race number 6. The winner of this race is the fastest. Take the horses who came second and third place from the winners first race, the horse that came second in race number 6 and the horse that came second in its race and the horse that came third in race 6 and race them to find second and third.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_2">
+			<div>
+				<h2>Question 2</h2>
+			</div>
+			<div id="question">
+				<p>You have a five-litre jug and a three-litre jug. You must obtain exactly four litres of water. How will you do it?</p>
+			</div>
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_2()" />
+
+				<div id="answer_2"  style="display:none;" class="answer_list" > 
+					<p>Fill the five-litre jug and then pour it into the three-litre jug. The five-litre jug has 2 litres left. Now throw the three-litre jug of water away. Pour the 2 litres from the five-litre jug to the three-litre jug. So now the three-litre jug has just 2 litres of water. Fill the five-litre jug again, and pour 1 litre to the three-litre jug. You are then left with 4 litres of water in the five-litre jug.</p>
+				</div>
+			</div>
+
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_3">
+			<div>
+				<h2>Question 3</h2>
+			</div>
+			<div id="question">
+				<p>What is the sum of all of the integers between 1 and 100, there is a quick trick to solve this quickly.</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_3" id="input_ans_3" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_3()"/>
+
+				<div id="correct_3"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_3"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_3()" />
+
+				<div id="answer_3"  style="display:none;" class="answer_list" > 
+					<p>Add: 1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101,...., 50+51 = 101. This gives 50 x 101 = 5050.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		﻿<div id="question_4">
+			<div>
+				<h2>Question 4</h2>
+			</div>
+			<div id="question">
+				<p>You have 4 blue socks, 4 red socks and 2 green socks in a drawer. It is dark while you are packing your bag for holidays and you cannot see what colour the socks are. What is the least number of socks you need to take to ensure you have at least 1 pair of matching socks?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_4" id="input_ans_4" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_4()"/>
+
+				<div id="correct_4"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_4"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_4()" />
+
+				<div id="answer_4"  style="display:none;" class="answer_list" > 
+					<p>You have 3 possible colours. Therefore you need to pack 4 socks to ensure 2 of them are the same colour.</p>
+				</div>
+			</div>
+
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_5">
+			<div>
+				<h2>Question 5</h2>
+			</div>
+			<div id="question">
+				<p>You are given 9 weights that look the same, but 1 of them weighs slightly less than the other 8. You are also given a balance scale. What is the LEAST number of times you could use the balance to determine which of the weights is the lighter one?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_5" id="input_ans_5" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_5()"/>
+
+				<div id="correct_5"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_5"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_5()" />
+
+				<div id="answer_5"  style="display:none;" class="answer_list" > 
+					<p>On the first weighing, you would weigh three weights on each side. Either one side of the scales will be lighter or else they are the same weight, thus the group with the lighter weight can be identified. Then you would place one weight on each side of scale, and leave one off.  This method will identify the light weight while only performing two weightings in total.</p>
+				</div>
+			</div>
+
+		</div>
+<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_6">
+			<div>
+				<h2>Question 6</h2>
+			</div>
+			<div id="question">
+				<p>Jim pays his employee Phil one piece of gold a day. Jim has one large, solid chunk of gold that is 7 pieces in total. He can break the solid chunk only twice over the seven days. Phil must leave work each day with an extra piece of gold. How does Jim do it?</p>
+			</div>
+
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_6()" />
+
+				<div id="answer_6"  style="display:none;" class="answer_list" > 
+					<p>Jim breaks off one piece of gold on the first day. On the second day Jim breaks off two pieces. He gives Phil the double piece of gold and takes the single piece off him.	On the third day Phil leaves with the doubke and single piece. On the fourth day Phil gives back the two pieces and takes the large 4 piece chunk and so on.</p>
+				</div>
+			</div>
+
+		</div>	
+<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_7">
+			<div>
+				<h2>Question 7</h2>
+			</div>
+			<div id="question">
+				<p>A company has ten machines that mint coins. One of the machines is broken and is producing coins that are a gram light each. Using only 1 measurement, how do you find the broken machine?
+</p>
+			</div>
+
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_7()" />
+
+				<div id="answer_7"  style="display:none;" class="answer_list" > 
+					<p>Label each machine 1 to 10. Machine 1 mints 1 coin, Machine 2 mints 2 coins, Machine 3 mints 3 coins and so on. Then weigh all of the minted coins together. If the pile is 1 gram lighter then it should be then machine 1 is broken. If the pile is 2 grams lighter then it should be then machine 2 is broken and so on.</p>
+				</div>
+			</div>
+
+		</div>	
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_8">
+			<div>
+				<h2>Question 8</h2>
+			</div>
+			<div id="question">
+				<p>A shipping company must bring a box of diamonds across the Atlantic ocean. The only problem is that all of their ships only have enough fuel to make it half way across. The company can use as many ships as needed. There is no way to for a ship to tow another ship. The ships can transfer fuel between each other. What is the least number of ships needed to do this?
+</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_8" id="input_ans_8" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_8()"/>
+
+				<div id="correct_8"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_8"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_8()" />
+
+				<div id="answer_8"  style="display:none;" class="answer_list" > 
+					<p>Two ships go 1/4 of the way. Two more ships meet the first two ships and refill their tanks. They sail to the halfway mark with half a tank in each ships. Then the ships with the letter drives to the halfway point, refills from the two ships and can then sail the full distance. The total is 5 ships.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id = "footer">
+	<p>Throw in a proper footer</p>
+</div>
+</body>
+</html>
+

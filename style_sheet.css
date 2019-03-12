@@ -1,0 +1,94 @@
+#wrapper {
+	background-color:#ABABAB;	
+	width: 80vw;
+	min-height:100vh;
+	margin: 0 auto;
+	padding-bottom:5vh;
+	margin-bottom:-4vh;
+	font-family: Arial, Verdana;
+	}
+
+#header {
+	background-color:#2D2D2D;
+	padding:1vw;
+	height:14vh;
+
+}
+
+#header img{
+	float:left;
+}
+#header h1{ 
+	color:white;
+	padding-left:25vw;
+	font-size:8vh;
+	}	
+#brain{
+	text-decoration:none;
+	color:#2D2D2D;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+#nav_bar {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 1vh;	
+	padding-bottom:1vh;
+	background-color:#634271; 
+}
+
+#nav_bar_list {
+	display: inline;
+	padding-right:5vw;
+	color:white;
+}
+
+
+#section_choice1{
+	list-style-type: none;	
+}
+#section_choice2{
+	list-style-type: none;
+}
+#section_list_pic{
+	display: inline;
+	padding-left:300px;
+}
+#section_list_content{
+	display: inline;
+	padding-left:50px;
+}
+
+
+#content{
+	padding-left:10vw;
+	padding-right:10vw;
+}
+#welcome_message{
+	padding-top:2vh;
+	padding-bottom:2vh;
+}
+
+#description{
+	padding-left:5vw;
+	padding-bottom:2vh;
+}
+
+#display_answer{
+	color:#303030;
+	font-style:italic;
+}
+
+
+	
+#footer{
+	background-color:#634271; 
+	height:4vh;
+	width:80vw;
+	margin:0 auto;
+}
+
+

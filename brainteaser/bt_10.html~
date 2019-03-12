@@ -1,0 +1,28 @@
+<div id="question_10">
+	<div id="question">
+		<p>What is the sum of all of the integers between 1 and 100, there is a quick trick to solve this quickly.</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>Add: 1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101,...., 50+51 = 101. This gives 50 x 101 = 5050.</p>
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,29 @@
+﻿<div id="question_7">
+	<div id="question">
+		<p>You have 25 horse and you want to know the 3 fastest. You can race 5 horses at a time. You can only record the order the horses finish in each race, you cannot time them. What is the least number of races you have to hold to find the fastest 3?</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="input_ans_7" id="input_ans_7" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_7()"/>
+
+		<div id="correct_7"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect_7"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans_7()" />
+
+		<div id="answer_7"  style="display:none;" class="answer_list" > 
+			<p>The answer is 7. First race all of the horses in 5 races. Record the horses that come in first, second and third in each race. Then race all the horses together in race number 6. The winner of this race is the fastest. Take the horses who came second and third place from the winners first race, the horse that came second in race number 6 and the horse that came second in its race and the horse that came third in race 6 and race them to find second and third.</p>
+		</div>
+	</div>
+</div>
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style_sheet.css">
+
+<script type="text/javascript">
+	function show_ans() {
+	document.getElementById('welcomeDiv').style.display = "block";
+}
+	function check_ans(){
+
+	var input = document.getElementById('check_ans');
+	if (input.value){
+		document.getElementById('correct').style.display = "block";
+		}	
+	else{
+		document.getElementById('incorrect').style.display = "block";	
+		}
+}
+	
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="index.html">Home</a></li>
+			<li id="nav_bar_list"><a href="brain_teaser.html">Brain Teaser</a></li>
+			<li id="nav_bar_list"><a href="contact.html">Contact</a></li>
+	</div>
+
+
+	<div id="question">
+		<p>This is where you put the question</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>The Answer</p>
+		</div>
+	</div>
+
+
+	<div id="footer">
+		<p>Insert footer!</p>
+	</div>
+</div>
+
+
+
+</body>
+</html>
+

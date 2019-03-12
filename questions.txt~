@@ -1,0 +1,47 @@
+
+-----------------------misc---------------------------------------------------
+The hour and minute hands of a clock meet at 12'oclock. When will be the first time they meet again ?
+
+	They will meet at 1 hour + 327 seconds (5 mins 45). The minute hand is at an angle theta_m(t)= (2 Pi)/(60^2) t, hour hand at theta_h(t) =(2 Pi)/(12x60^2) t. The two hands will meet some time after 1 o clock. So we begin with the hour hand at 1 o clock, the minute at the 12 o clock. So we want to solve theta_m = theta_h + 2pi/12, t=327seconds.
+
+You break a stick of length 1m into 3 pieces, you make the breaks at random. What is the probability that you can arrange the pieces into the shape of a triangle?
+
+
+------------------------misc-----------------------------------------------------------
+There are 6 points in a rectangle with the sides, 24 and 7. Prove that the distance between at least two of these points is smaller than the square root of 25. 
+
+	Furthest point apart they could be is infinitesimally close to two opisite corners. The distance between these corners is root 25 so the two points cannot be closer.
+ 
+----------------------------------misc-------------------------------------
+Two Mathematicians are discussing their children. One says she has three children. The product of their ages equals 36 and the sum of their ages is the same as their house number. The other Mathematician says there isn't enough information to figure out the childrens ages. The first mathematician then says "well my youngest child would like to be an astronaut". How old are the chidren?
+
+	36 needs 3 factors, there are 2 groups of factors: (3,3,4) and (2,3,6). Since there is a youngest child, the ages of the children are 2,3,6.
+
+----------------------------------misc---------------------------------
+There is a water tank with three different water-taps. With the smallest tap, the water tank can be filled in 20 minutes. With the middle tap, the water tank can be filled in 12 minutes. With the largest tap, the water tank can be filled in 5 minutes. How long would it take to fill the tank with all 3 running?
+
+	Let V be the total volume of the tank. The smallest tap fills the tank at a rate V/20 per minute, the medium tap has a rate V/12 per minute and the largest has a rate of V/5 per minute. Let 1m be 1 minute. The equation we have to solve is: Vm/20 + Vm/12 + Vm/5 = V.
+
+
+Greengrocer C. Carrot wants to expose his oranges neatly for sale. Doing this he discovers that one orange is left over when he places them in groups of three. The same happens if he tries to place them in groups of 5, 7, or 9 oranges. Only when he makes groups of 11 oranges, it fits exactly. How many oranges does he have?
+
+	?
+----------------------------misc------------------------------------
+A snail is at the bottom of a 20 meters deep pit. Every day the snail climbs 5 meters upwards, but at night, it slides 4 meters back downwards. 
+
+
+
+----------------------------cant figure this out ----------------------------------------------
+A group of 100 soldiers suffered the following injuries in a battle: 70 soldiers lost an eye, 75 lost an ear, 85 lost a leg, and 80 lost an arm.
+What is the minimum number of soldiers who must have lost all 4? 
+
+
+=========================================================================
+
+
+
+
+
+
+
+

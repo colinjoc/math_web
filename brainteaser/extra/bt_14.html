@@ -1,0 +1,34 @@
+﻿<div id="question_14">
+	<div id="question">
+		<p>You are playing a card game against one opponent. The game starts with 21 cards on a table. You and your opponent alternate turns, and during each turn, a player may pick up 1, 2 or 3 cards. The winner is the person that picks up the last card. You go first. What is your first move, and what is the optimal strategy to win this game?</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>You pick 1 card first (leaving 20), then you want to respond to all opponent picks by picking a number that totals 4 combined with their last pick. So, you pick 1. Then, if they pick 3, you pick 1…if they pick 2, you pick 2…if they pick 1, you pick 3. This ensures that you’re always leaving them with a multiple of 4 (first 20, then 16, 12, 8, 4), right until the end, when you leave them with exactly 4. When they’re stuck with 4, they are out of luck, because regardless if they pick 1, 2 or 3, you will be able to win in the next turn.</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+</body>
+</html>
+

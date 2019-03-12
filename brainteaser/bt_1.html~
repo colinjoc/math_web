@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style_sheet.css">
+
+<script src="../java_functions_1.js">	
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<img src="../images/logo.png" alt="logo"/>	
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="../index.html">Home</a></li>
+			<li id="nav_bar_list"><a href="../brain_teaser_menu.html">Brain Teaser</a></li>
+			<li id="nav_bar_list"><a href="../contact.html">Contact</a></li>
+	</div>
+<!-- //////////////////////////////////////////////////////// -->
+	<div id="content">
+	
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_3">
+			<div>
+				<h2>Question 1</h2>
+			</div>
+
+			<div id="question">
+				<p>If you look at a clock and the time is 12:15, what is the angle between the hour and the minute hand?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_3" id="input_ans_3" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_3()"/>
+
+				<div id="correct_3"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_3"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_3()" />
+
+				<div id="answer_3"  style="display:none;" class="answer_list" > 
+					<p>It is not 90 degrees! The hour hand is always moving, it moves 30 degrees every hour. Therefore it will move 30/4 = 7.5 degrees in 15 minutes. The angle between the hands is thus 90 - 7.5 = 82.5 degrees.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_4">
+			<div>
+				<h2>Question 2</h2>
+			</div>
+			<div id="question">
+				<p>A car is on a journey that is 120km long. It travels the first 60km at an average speed of 30km per hour. How fast would the car have to travel in order have an average speed of 60km per hour over the whole journey?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_4()" />
+
+				<div id="answer_4"  style="display:none;" class="answer_list" > 
+					<p>It is a trick question, it is not possible. An infinite speed is required. Since the car has already travelled 60 km at 30 km per hour, there is only 60km left which is not enough distance to get the average speed up to 60km per hour.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		﻿<div id="question_5">
+			<div>
+				<h2>Question 3</h2>
+			</div>
+			<div id="question">
+				<p>Let a and b be digits between 0 and 9. What is the value of a if: a+a = ba </p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_5" id="input_ans_5" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_5()"/>
+
+				<div id="correct_5"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_5"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_5()" />
+
+				<div id="answer_5"  style="display:none;" class="answer_list" > 
+					<p>a is 5 and b is 1.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_6">
+			<div>
+				<h2>Question 4</h2>
+			</div>
+			<div id="question">
+				<p>a,b,c are digits. what is the value of a if aa+aa = bac</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_6" id="input_ans_6" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_6()"/>
+
+				<div id="correct_6"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_6"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_6()" />
+
+				<div id="answer_6"  style="display:none;" class="answer_list" > 
+					<p>a = 9, b = 1 and c is 8.</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- //////////////////////////////////////////////////////// -->
+		﻿<div id="question_7">
+			<div>
+				<h2>Question 5</h2>
+			</div>
+
+			<div id="question">
+				<p>You have 25 horse and you want to know the 3 fastest. You can race 5 horses at a time. You can only record the order the horses finish in each race, you cannot time them. What is the least number of races you have to hold to find the fastest 3?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_7" id="input_ans_7" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_7()"/>
+
+				<div id="correct_7"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_7"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_7()" />
+
+				<div id="answer_7"  style="display:none;" class="answer_list" > 
+					<p>The answer is 7. First race all of the horses in 5 races. Record the horses that come in first, second and third in each race. Then race all the horses together in race number 6. The winner of this race is the fastest. Take the horses who came second and third place from the winners first race, the horse that came second in race number 6 and the horse that came second in its race and the horse that came third in race 6 and race them to find second and third.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_8">
+			<div>
+				<h2>Question 6</h2>
+			</div>
+			<div id="question">
+				<p>You have a five-litre jug and a three-litre jug. You must obtain exactly four litres of water. How will you do it?</p>
+			</div>
+
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_8()" />
+
+				<div id="answer_8"  style="display:none;" class="answer_list" > 
+					<p>Fill the five-litre jug and then pour it into the three-litre jug. The five-litre jug has 2 litres left. Now throw the three-litre jug of water away. Pour the 2 litres from the five-litre jug to the three-litre jug. So now the three-litre jug has just 2 litres of water. Fill the five-litre jug again, and pour 1 litre to the three-litre jug. You are then left with 4 litres of water in the five-litre jug.</p>
+				</div>
+			</div>
+
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_9">
+			<div>
+				<h2>Question 7</h2>
+			</div>
+			<div id="question">
+				<p>You play a game with a friend where you flip a coin. If you get heads you win, if not then it is your friends turn. Is it better to go first or second in this game?</p>
+			</div>
+
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_9()" />
+
+				<div id="answer_9"  style="display:none;" class="answer_list" > 
+					<p>It is better to go first. The first player has a 50/50 chance of winning where as the second player needs the first person to get tails (0.5 chance) and then must get heads (0.5 chance) which has a probability of 0.25.</p>
+				</div>
+			</div>
+
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_10">
+			<div>
+				<h2>Question 8</h2>
+			</div>
+			<div id="question">
+				<p>What is the sum of all of the integers between 1 and 100, there is a quick trick to solve this quickly.</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_10" id="input_ans_10" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_10()"/>
+
+				<div id="correct_10"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_10"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_10()" />
+
+				<div id="answer_10"  style="display:none;" class="answer_list" > 
+					<p>Add: 1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101,...., 50+51 = 101. This gives 50 x 101 = 5050.</p>
+				</div>
+			</div>
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		﻿<div id="question_11">
+			<div>
+				<h2>Question 9</h2>
+			</div>
+			<div id="question">
+				<p>You have 4 blue socks, 4 red socks and 2 green socks in a drawer. It is dark while you are packing your bag for holidays and you cannot see what colour the socks are. What is the least number of socks you need to take to ensure you have at least 1 pair of matching socks?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_11" id="input_ans_11" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_11()"/>
+
+				<div id="correct_11"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_11"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_11()" />
+
+				<div id="answer_11"  style="display:none;" class="answer_list" > 
+					<p>You have 3 possible colours. Therefore you need to pack 4 socks to ensure 2 of them are the same colour.</p>
+				</div>
+			</div>
+
+		</div>
+	<!-- //////////////////////////////////////////////////////// -->
+		<div id="question_12">
+			<div>
+				<h2>Question 10</h2>
+			</div>
+			<div id="question">
+				<p>You are given 9 weights that look the same, but 1 of them weighs slightly less than the other 8. You are also given a balance scale. What is the LEAST number of times you could use the balance to determine which of the weights is the lighter one?</p>
+			</div>
+
+			<div id="answer_check_div">
+				<input name="input_ans_12" id="input_ans_12" type="text">
+				<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans_12()"/>
+
+				<div id="correct_12"  style="display:none;" class="answer_list" > 
+					<p>Correct</p>
+				</div>
+
+				<div id="incorrect_12"  style="display:none;" class="answer_list" > 
+					<p>Incorrect</p>
+				</div>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_12()" />
+
+				<div id="answer_12"  style="display:none;" class="answer_list" > 
+					<p>On the first weighing, you would weigh three weights on each side. Either one side of the scales will be lighter or else they are the same weight, thus the group with the lighter weight can be identified. Then you would place one weight on each side of scale, and leave one off.  This method will identify the light weight while only performing two weightings in total.</p>
+				</div>
+			</div>
+
+		</div>
+	<div id = "footer">
+		<p>Throw in a proper footer</p>
+	</div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style_sheet.css">
+
+<script type="text/javascript">
+	function show_ans() {
+	document.getElementById('welcomeDiv').style.display = "block";
+}
+	function check_ans(){
+
+	var input = document.getElementById('check_ans');
+	if (input.value==1){
+		document.getElementById('correct').style.display = "block";
+        document.getElementById('incorrect').style.display = "none";	
+		}	
+	else{
+		document.getElementById('incorrect').style.display = "block";	
+        document.getElementById('correct').style.display = "none";	
+		}
+}
+	
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="../index.html">Home</a></li>
+			<li id="nav_bar_list"><a href="bt_template.html">Brain Teaser</a></li>
+			<li id="nav_bar_list"><a href="../contact.html">Contact</a></li>
+	</div>
+
+
+	<div id="question">
+		<p>Let a and b be digits between 0 and 9. What is the value of a if: a+a = ba </p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>a is 5 and b is 1.</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+</body>
+</html>
+

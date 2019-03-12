@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style_sheet.css">
+
+<script src="../java_functions_1.js">	
+</script>
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<img src="../images/logo.png" alt="logo"/>	
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			<li id="nav_bar_list"><a href="../brain_teaser_menu.html">Brain Teaser Menur</a></li>
+			<li id="nav_bar_list"><a href="../contact.html">Contact</a></li>
+	</div>
+<!-- //////////////////////////////////////////////////////// -->
+	<div id="content">
+	
+	<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 1">
+			<div>
+				<h2>Pattern 1</h2>
+			</div>
+			<div id="question 1">
+				<p>6,6,12,18,40,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_1()" />
+
+				<div id="answer_1"  style="display:none;" class="answer_list" > 
+					<p>Answer is 58. This is a fibonnacci sequance that starts at 6 instead of 1. Each term is the sum of the previous two numbers in the sequance.</p>
+				</div>
+			</div>
+		</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 2">
+			<div>
+				<h2>Pattern 2</h2>
+			</div>
+			<div id="question 2">
+				<p>3,5,9,15,23,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_2()" />
+
+				<div id="answer_2"  style="display:none;" class="answer_list" > 
+					<p>Answer is 33. Add 2 to the first term, add 4 to the second term, add 6 to the third term and so on until you add 10 to the fifth term.</p>
+				</div>
+			</div>
+		</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+		
+		<div id="pattern 3">
+			<div>
+				<h2>Pattern 3</h2>
+			</div>
+			<div id="question 2">
+				<p>3,5,9,15,23,?</p>
+			</div>
+	
+
+			<div id="display_answer">
+				<input type="button" name="answer" value="Answer" onclick="show_ans_2()" />
+
+				<div id="answer_2"  style="display:none;" class="answer_list" > 
+					<p>Answer is 33. Add 2 to the first term, add 4 to the second term, add 6 to the third term and so on until you add 10 to the fifth term.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div id = "footer">
+	<p>Throw in a proper footer</p>
+</div>
+</body>
+</html>
+

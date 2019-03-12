@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style_sheet.css">
+
+</head>
+
+<body>
+<div id ="wrapper">
+	<div id="header">
+		<img src="images/logo.png" alt="logo"/>		
+		<h1>Math Puzzles</h1>
+	</div>
+
+	<div id="nav_bar">
+		<ul>
+			
+			<li id="nav_bar_list"><a href="brain_teaser_menu.html">Brain Teaser Menu</a></li>
+			<li id="nav_bar_list"><a href="contact.html">Contact</a></li>
+	</div>
+
+
+	<div id="content">
+		<div id ="welcome_message">
+			<p>
+				Welcome to .. This site has a collection of mathematical and logical brainteasers. You can check your answer for most of the brainteasers, but not all of them. Some of the puzzles may not have answers with a simple answer and thus it is difficult to check your answer. If you spot a mistake in any of the puzzles or there are puzzles you think I should add tothe page, please contact me! I hope you enjoy ... 
+			</p>
+		</div>
+		<div id="brainteaser_menu">
+
+			<p><a id="brain" href="brainteaser/bt_prob.html">Probability based Brain-Teasers</a></p>
+				<p id="description">These puzzles require probability to figure them out.</p>
+			<p><a id="brain" href="brainteaser/bt_misc.html">Misc Brain-Teasers</a></p>
+				<p id="description">These puzzles require some simple algebra to solve them.</p>
+			<p><a id="brain" href="brainteaser/bt_pattern.html">Numerical Patterns</a></p>
+				<p id="description">Testing </p>
+			<p><a id="brain" href="brainteaser/bt_logic.html">Logical Problems</a></p>
+				<p id="description">You do not to use mathematics to solve these problems. </p>
+
+		</div>
+	</div>
+</div>
+<div id = "footer">
+	<p>Throw in a proper footer</p>
+</div>
+</body>
+</html>
+

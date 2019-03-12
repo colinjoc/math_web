@@ -1,0 +1,29 @@
+<div id="question_8">
+	<div id="question">
+		<p>You have a five-litre jug and a three-litre jug. You must obtain exactly four litres of water. How will you do it?</p>
+	</div>
+
+	<div id="answer_check_div">
+		<input name="check_ans" id="check_ans" type="text">
+		<input type="button" name="check_ans_button" value="Check Answer" onclick="check_ans()"/>
+
+		<div id="correct"  style="display:none;" class="answer_list" > 
+			<p>Correct</p>
+		</div>
+
+		<div id="incorrect"  style="display:none;" class="answer_list" > 
+			<p>Incorrect</p>
+		</div>
+	</div>
+	
+
+	<div id="display_answer">
+		<input type="button" name="answer" value="Answer" onclick="show_ans()" />
+
+		<div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+			<p>Fill the five-litre jug and then pour it into the three-litre jug. The five-litre jug has 2 litres left. Now throw the three-litre jug of water away. Pour the 2 litres from the five-litre jug to the three-litre jug. So now the three-litre jug has just 2 litres of water. Fill the five-litre jug again, and pour 1 litre to the three-litre jug. You are then left with 4 litres of water in the five-litre jug.</p>
+		</div>
+	</div>
+
+</div>
+
